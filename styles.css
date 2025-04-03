@@ -1,0 +1,170 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light Grey Background */
+    color: #333; /* Dark text for better readability */
+}
+
+/* Header and Navigation */
+header {
+    background-color: #007BFF; /* Blue header */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 50px;
+    background-color: #007BFF; /* Blue background for emphasis */
+    color: white;
+}
+
+#home h1 {
+    font-size: 3em;
+}
+
+#home a {
+    text-decoration: none;
+    background-color: #28a745; /* Green Button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+#home a:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* About Section */
+#about {
+    padding: 50px;
+    text-align: center;
+    background-color: #ffffff; /* White background */
+}
+
+#about h1 {
+    font-size: 2.5em;
+}
+
+#about a {
+    text-decoration: none;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px;
+    background-color: #e9ecef; /* Light grey background */
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Educational Section */
+#education {
+    padding: 50px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 2.5em;
+}
+
+#education ul {
+    list-style-type: none;
+}
+
+#education ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Blog Section */
+#blog {
+    padding: 50px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+#blog h2 {
+    font-size: 2.5em;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007BFF; /* Blue button */
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2em;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
